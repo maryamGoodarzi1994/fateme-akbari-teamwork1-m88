@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #eaef72;
+    --grey: #3d3d3d;
+
+}
+
+.header {
+    background-color: black;
+}
+
+.header p {
+    color: var(--yellow);
+}
+
+.title {
+    color: var(--yellow);
+}
+
+.country-detail {
+    background-color: var(--grey);
+    color: #fff;
+}
+.flag h5{
+    background-color: black;
+    color: #fff;
+    margin-bottom: 0px;
+    padding: 1rem;
+}
+.flag img{
+    width: 100%;
+}
+.weather {
+    background-color: var(--grey);
+    color: #fff;
+}
+
+ #map {
+    height: 100%;
+  }
+
+  .custom-map-control-button {
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 0 0.5em;
+    font: 400 18px Roboto, Arial, sans-serif;
+    overflow: hidden;
+    height: 40px;
+    cursor: pointer;
+  }
+  .custom-map-control-button:hover {
+    background: rgb(235, 235, 235);
+  }
